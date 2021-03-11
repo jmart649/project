@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@vueuse/firebase": "^4.3.1",
+    "firebase": "^8.2.9",
     "vue": "^3.0.5",
     "vue-router": "^4.0.4"
   },
@@ -14,9 +16,10 @@
     "@vitejs/plugin-vue": "^1.1.4",
     "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.2.4",
-    "daisyui": "^0.14.1",
+    "daisyui": "^0.11.5",
+    "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3",
-    "vite": "^2.0.0-beta.65",
-    "vite-plugin-components": "^0.8.0"
+    "vite": "^2.0.0-beta.70",
+    "vite-plugin-components": "^0.7.5"
   }
 }
