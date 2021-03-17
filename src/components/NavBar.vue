@@ -1,4 +1,5 @@
 <template>
+  <Alert v-if="isError" />
   <div class="navbar mb-2 shadow-lg bg-content-800 text-content-100">
     <div class="flex-1 px-2 mx-2">
       <span class="text-lg font-bold"> Martinez Pewee League </span>
@@ -11,13 +12,19 @@
         >
           Home
         </router-link>
-        <router-link
-          v-if="!isAuthenticated"
+        <div v-if="!isAuthenticated">
+          <router-link
           to="/login"
-          class="btn btn-ghost btn-sm rounded-btn hover:text-content-100"
-        >
+          class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
           Login
-        </router-link>
+          </router-link>
+
+          <router-link
+          to="/signup"
+          class="btn btn-ghost btn-sm rounded-btn hover:text-content-100">
+          Sign Up
+          </router-link>
+        </div>
         <div v-else>
           <router-link
             to="/secret"
@@ -40,6 +47,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 import { isAuthenticated, signOut } from '../helpers/useAuth.js'
+import { isError } from '../helpers/useError'
 const router = useRouter()
 const logout = async () => {
   await signOut()
