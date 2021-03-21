@@ -2,7 +2,7 @@
   <section
     class="container flex items-center justify-center text-center bg-content-800 rounded-xl mx-auto mt-24 max-w-md"
   >
-    <form @submit.prevent class="flex flex-col w-full p-12 shadow-lg bg-lightBlue-200">
+    <form @submit.prevent class="flex flex-col w-full p-12 shadow-lg bg-blue-700">
       <label
         v-if="form == 'signup'"
         for="name"
@@ -45,6 +45,7 @@
       </p>
 
       <label
+        v-if="form == 'signup'"
         for="passwordConfirmation"
         class="self-start mt-3 text-xs font-semibold text-content-200"
         >Confirm Password</label

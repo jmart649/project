@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from './views/Home.vue'
-import Secret from './views/Secret.vue'
+import About from './views/About.vue'
+import Secret from './views/Content.vue'
 import Login from './views/Login.vue'
 import SignUp from './views/SignUp.vue'
 import NotFound from './views/NotFound.vue'
@@ -10,6 +11,7 @@ import { isAuthenticated } from './helpers/useAuth'
 
 const routes = [
   { path: '/', component: Home },
+  { path: '/about', component: About},
   {
     path: '/secret',
     component: Secret,

@@ -1,15 +1,24 @@
 <template>
-  <div class="mt-8">
-    <p class="text-xl mx-auto text-center m-16 tracking-wider font-bold">
-      Welcome, {{ user?.displayName || 'New User' }}
+  <header style="width: 99.5%; margin: auto; outline-style: outset; outline-color: black; padding: 40px" class="text-center bold text-6xl bg-blue-700 text-black top-80">
+    MARTINEZ PEWEE LEAGUE
+  </header>
+  <body style="width: 75%; margin: auto;" class="bg-blue-700">
+    <p class="text-xl text-center">
+      WELCOME TO MARTINEZ PEWEE LEAGUE
+      <br>The #1 little league in the Rio Grande Valley
+      <br>
+      <br>
+      <br>
     </p>
-  </div>
+  </body>
 </template>
 
 <style>
+
 body{
-    background-color: lightgray;
+  background-color: black;
 }
+
 </style>
 
 <script setup>
