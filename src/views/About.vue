@@ -3,9 +3,16 @@
     MARTINEZ PEWEE LEAGUE
   </header>
     <body style="width: 75%; margin: auto;" class="bg-blue-700">
+      <div style="width: 75%; margin: auto;" class="bg-blue-700">
+        <h1 class="text-center text-4xl font-bold" >OUR MISSION</h1>
+        <p class="text-center italic bg-red-600">Our mission goal is to keep our children active during the Summer
+          .  Not only will your children stay active in our summer league, but they will learn important
+          values such as dicipline, respect, commitment, and loyalty.
+        </p>
+      </div>
         <div style="width: 75%; margin: auto;" class="justify-items-center place-items-center bg-blue-700">
             <table class="center bg-red-600" style="width:50%">
-            <caption class="font-bold" >Contact Our Coaches</caption>
+            <caption class="font-bold" >Contact Our Staff</caption>
             <tr>
                 <th>Position</th>
                 <th>Name</th>
@@ -38,6 +45,17 @@
             </tr>
             </table>
         </div>
+    <div style="width: 75%; margin: auto;" class="bg-blue-700 row">
+      <div class="column">
+        <img src="../assets/football.jpg" alt="football" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="../assets/baseball.jpg" alt="baseball" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="../assets/basketball2.jpg" alt="basketball" style="width:100%">
+      </div>
+    </div>
   </body>
 </template>
 
@@ -54,6 +72,11 @@ th, td {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
 
 </style>
