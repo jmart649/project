@@ -9,6 +9,14 @@
       <br>
       <br>
       <br>
+      <img src="../assets/sports.jpg" alt="sports" width="250" height="250" />
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
     </p>
   </body>
 </template>
