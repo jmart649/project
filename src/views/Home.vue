@@ -5,18 +5,7 @@
   <body style="width: 75%; margin: auto;" class="bg-blue-700">
     <p class="text-xl text-center">
       WELCOME TO MARTINEZ PEWEE LEAGUE
-      <br>The #1 little league in the Rio Grande Valley
-      <br>
-      <br>
-      <br>
-      <img src="../assets/sports.jpg" alt="sports" width="250" height="250" />
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    <br>The #1 little league in the Rio Grande Valley
     </p>
   </body>
 </template>

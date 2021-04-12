@@ -4,10 +4,28 @@
   </header>
     <body style="width: 75%; margin: auto;" class="bg-blue-700">
       <div style="width: 75%; margin: auto;" class="bg-blue-700">
-        <h1 class="text-center text-4xl font-bold" >OUR MISSION</h1>
+        <h1 class="text-center text-4xl font-bold" >ABOUT MARTINEZ PEWEE LEAGUE:</h1>
+        <p class="text-center italic bg-red-600">Since 2012, Our Summer League has been keeping
+          our Rio Grande Valley children active by participating in Football, Basketball, and Baseball.
+          <br>
+          <br>
+          We encourage all children between the ages of 10-13 to join our summer league and learn the
+          importance of team work while also learning how to play in their favorite sports.  Every summer
+          we have over 250 participants who join our summer league.
+        </p>
+      </div>
+      <div style="width: 75%; margin: auto;" class="bg-blue-700">
+        <h1 class="text-center text-4xl font-bold" >OUR MISSION:</h1>
         <p class="text-center italic bg-red-600">Our mission goal is to keep our children active during the Summer
           .  Not only will your children stay active in our summer league, but they will learn important
-          values such as dicipline, respect, commitment, and loyalty.
+          values such as dicipline, respect, commitment, and team work.
+        </p>
+      </div>
+      <div style="width: 75%; margin: auto;" class="bg-blue-700">
+        <h2 class="text-center text-4xl font-bold">ADDRESS:</h2>
+        <p class="text-center italic bg-red-600">
+          1300 S. Ware Road
+          <br>McAllen, Texas 78504
         </p>
       </div>
         <div style="width: 75%; margin: auto;" class="justify-items-center place-items-center bg-blue-700">
