@@ -28,6 +28,9 @@
           <br>McAllen, Texas 78504
         </p>
       </div>
+      <div style="width: 75%; margin: auto;" class="bg-blue-700">
+        <br>
+      </div>
         <div style="width: 75%; margin: auto;" class="justify-items-center place-items-center bg-blue-700">
             <table class="center bg-red-600" style="width:50%">
             <caption class="font-bold" >Contact Our Staff</caption>
