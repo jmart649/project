@@ -24,7 +24,7 @@
       <div style="width: 75%; margin: auto;" class="bg-blue-700">
         <h2 class="text-center text-4xl font-bold">ADDRESS:</h2>
         <p class="text-center italic bg-red-600">
-          1300 S. Ware Road
+          1000 S. Ware Road
           <br>McAllen, Texas 78504
         </p>
       </div>

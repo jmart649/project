@@ -7,20 +7,29 @@
         <h2 class="bg-blue-700 text-center bold underline text-xl">SPORTS INFORMATION</h2>
         
         <div class="row">
-          <div class="column" style="background-color:#B22222;">
+          <div class="column" style="background-color:#B22222; height: max-content;">
             <h2 class="text-2xl bold text-center" >FOOTBALL</h2>
             <img src="../assets/tigers1.jpg" alt="football" width="320" class="center">
-            <p>Some text..</p>
+            <ul class="text-center">
+              <li>Monday and Friday: 4pm - 6pm</li>
+              <li>Gameday: Sunday 7:00pm</li>
+            </ul>
           </div>
-          <div class="column" style="background-color:#174b9e;">
+          <div class="column" style="background-color:#174b9e; height: max-content;">
             <h2 class="text-2xl bold text-center" >BASEBALL</h2>
             <img src="../assets/tigers2.jpg" alt="baseball" width="350" class="center">
-            <p>Some text..</p>
+            <ul class="text-center">
+              <li>Tuesday and Thursday: 4pm - 6pm</li>
+              <li>Gameday: Sunday 3:30pm</li>
+            </ul>
           </div>
-          <div class="column" style="background-color:#B22222;">
+          <div class="column" style="background-color:#B22222; height: max-content;">
             <h2 class="text-2xl bold text-center" >BASKETBALL</h2>
             <img src="../assets/tigers3.jpg" alt="basketball" width="310" class="center">
-            <p>Some text..</p>
+            <ul class="text-center">
+              <li>Wedneday and Saturday: 4pm - 6pm</li>
+              <li>Gameday: Sunday 12:00pm</li>
+            </ul>
           </div>
         </div>
         
