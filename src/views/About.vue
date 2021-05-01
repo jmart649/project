@@ -31,34 +31,34 @@
       <div style="width: 75%; margin: auto;" class="bg-blue-700">
         <br>
       </div>
-        <div style="width: 75%; margin: auto;" class="justify-items-center place-items-center bg-blue-700">
+        <div style="width: 100%; margin: auto;" class="justify-items-center place-items-center bg-blue-700">
             <table class="center bg-red-600" style="width:50%">
-            <caption class="font-bold" >Contact Our Staff</caption>
-            <tr>
+            <caption class="font-bold bg-red-600" >Contact Our Staff</caption>
+            <tr class="bg-red-600" >
                 <th>Position</th>
                 <th>Name</th>
                 <th>Phone#</th>
                 <th>email</th>
             </tr>
-            <tr>
+            <tr class="bg-red-600">
                 <td>Sports Director</td>
                 <td>Jesse Martinez</td>
                 <td>9565551234</td>
                 <td>martinez.jesse84@yahoo.com</td>
             </tr>
-            <tr>
+            <tr class="bg-red-600">
                 <td>Football HC</td>
                 <td>Rogelio Gonzalez</td>
                 <td>9565552324</td>
                 <td>Roy_Gonzalez@fake.com</td>
             </tr>
-            <tr>
+            <tr class="bg-red-600">
                 <td>Basketball HC</td>
                 <td>Elias Garcia</td>
                 <td>9565552938</td>
                 <td>elias_Garcia@fake.com</td>
             </tr>
-            <tr>
+            <tr class="bg-red-600">
                 <td>Baseball HC</td>
                 <td>Kevin Segovia</td>
                 <td>9565552873</td>
@@ -66,7 +66,8 @@
             </tr>
             </table>
         </div>
-    <div style="width: 75%; margin: auto;" class="bg-blue-700 row">
+        <br>
+    <div style="width: 100%; margin: auto;" class="bg-blue-700 row">
       <div class="column">
         <img src="../assets/football.jpg" alt="football" style="width:100%">
       </div>
@@ -76,6 +77,19 @@
       <div class="column">
         <img src="../assets/basketball2.jpg" alt="basketball" style="width:100%">
       </div>
+    </div>
+    <br>
+    <div class="contact-form">
+      <h1 class="text-3xl font-bold text-center">CONTACT US</h1>
+      <form id="contact-form" method="post" action="mailto:martinez.jesse84@yahoo.com">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+        <br>
+          <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+          <br>
+          <input type="submit" class="form-control submit" value="    SEND">
+      </form>
     </div>
   </body>
 </template>
@@ -97,6 +111,34 @@ th, td {
 .column {
   float: left;
   width: 33.33%;
+  padding: 5px;
+}
+.form-control{
+  width: 100%;
+  background: whitesmoke;
+  border: thick;
+  outline: thick;
+  border: 1px solid;
+}
+form .submit{
+  border-color: black;
+  background: lightgray;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  font-size: 20px;
+}
+
+form .submit:hover{
+  background-color: dimgray;
+  cursor: pointer;
+}
+.contact-form{
+  background-color: red;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   padding: 5px;
 }
 

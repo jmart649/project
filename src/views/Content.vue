@@ -2,9 +2,40 @@
     <header style="width: 99.5%; margin: auto; outline-style: outset; outline-color: black; padding: 40px" class="text-center bold text-6xl bg-blue-700 text-black top-80">
         MARTINEZ PEWEE LEAGUE
     </header>
-    <body>
+    <body style="width: 75%; margin: auto;" class="bg-blue-700">
 
-        <h2 class="bg-blue-700 text-center bold underline text-xl">SPORTS INFORMATION</h2>
+      <div class="bg-red-600">
+        <h1 class="text-center bold text-3xl">Summer League Overview</h1>
+        <ul class="text-center">
+          <li class="italic">Everyone gets to play: <span>Here in summer sports League there are no try outs and everyone gets to play.</span></li>
+          <li class="italic">Cheap Pricing: For just $120, your child can play in any of the sports programs that we offer. </li>
+          <li class="italic">Safety is our Priority: We have some of the best medical staff and equipment to keep your children safe.</li>
+          <li class="italic">Future Development: By joining our sports program, your child will be prepared to play in their school's programs.</li>
+          <li class="italic"></li>
+          <li class="italic"></li>
+          <li class="italic"></li>
+        </ul>
+      </div>
+
+      <div class="bg-red-600">
+        <h1 class="text-center bold text-3xl">Parents Program</h1>
+        <p class="italic text-center">Here at summer sports league, we encourage parents to participate and become part of our staff.
+            There are many ways to get involved, you become an assistant coach or referee some of the games.
+              There are many benefits to becoming part of our staff to include the following:
+        </p>
+        <br>
+        <ul class="text-center">
+          <li class="italic">Discounts: By you becoming part of our staff, you are eligle to get a 20% discount on your child registration package.</li>
+          <li class="italic">Family Time: As a member, you get to spend time while teaching your child to play or sports programs. </li>
+          <li class="italic">Facilities: As a member, you and your child will be eligle to use our facilities at any time, free of charge.</li>
+          <li class="italic"></li>
+          <li class="italic"></li>
+          <li class="italic"></li>
+          <li class="italic"></li>
+        </ul>
+      </div>
+
+        <h2 class="bg-blue-700 text-center bold underline text-xl">SPORTS SCHEDULE</h2>
         
         <div class="row">
           <div class="column" style="background-color:#B22222; height: max-content;">
@@ -32,6 +63,11 @@
             </ul>
           </div>
         </div>
+      <br>
+      <div style="width: 50%; margin: auto;" class="justify-items-center items-center">
+        <component is ="script" src="https://apps.elfsight.com/p/platform.js" defer></component>
+        <div class="elfsight-app-8b2ef66c-2457-41e1-84c6-59fbb61b7da2"></div>
+      </div>
         
     </body>
 </template>
