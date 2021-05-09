@@ -43,6 +43,10 @@
 </template>
 
 <style>
+  body{
+    background-color: black;
+  }
+
   #slider {
     overflow: hidden;
   }

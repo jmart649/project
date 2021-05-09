@@ -68,7 +68,17 @@
         <component is ="script" src="https://apps.elfsight.com/p/platform.js" defer></component>
         <div class="elfsight-app-8b2ef66c-2457-41e1-84c6-59fbb61b7da2"></div>
       </div>
-        
+      <br>
+      <br>
+        <div class="bg-red-700">
+          <h1 class="text-center text-2xl font-bold">Random Quote of the Day:</h1>
+          <h1 v-for="bad in quote" :key="bad.quote_id" class="text-center">
+            {{bad.author}}
+            <p class="justify-items-center center-text-align">{{bad.quote}}</p>
+          </h1>
+        </div>
+        <br>
+        <br>
     </body>
 </template>
 
@@ -98,3 +108,11 @@
     margin-right: auto;
 }
 </style>
+
+<script setup>
+import { onMounted } from 'vue'
+import { quote, getQuote } from '../helpers/useQuote'
+onMounted(() => {
+  getQuote()
+})
+</script>
