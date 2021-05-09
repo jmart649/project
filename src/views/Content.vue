@@ -73,8 +73,8 @@
         <div class="bg-red-700">
           <h1 class="text-center text-2xl font-bold">Random Quote of the Day:</h1>
           <h1 v-for="bad in quote" :key="bad.quote_id" class="text-center">
-            {{bad.author}}
-            <p class="justify-items-center center-text-align">{{bad.quote}}</p>
+            By: {{bad.author}}
+            <p class="justify-items-center center-text-align">"{{bad.quote}}"</p>
           </h1>
         </div>
         <br>
